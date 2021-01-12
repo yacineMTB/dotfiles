@@ -1,0 +1,58 @@
+{
+  "files.watcherExclude": {
+    "**/.terraform/**": true,
+    "**/app/**": true,
+    "**/mirage/**": true,
+    "**/tmp/**": true
+  },
+  "workbench.colorTheme": "Dracula",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.visible": false,
+  "telemetry.enableTelemetry": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.statusBar.visible": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+  ],
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "telemetry.enableCrashReporter": false,
+  "python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+"zenMode.hideLineNumbers": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"jupyter.alwaysTrustNotebooks": true
+}
